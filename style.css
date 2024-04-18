@@ -1,0 +1,58 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+@import url("https://cdn.tailwindcss.com");
+/* canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+#app {
+  position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+}
+
+ #p1 {
+  font-size: 300%;
+} 
+
+.font-barlow{
+  font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.font-barlow-italic{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: italic;
+}
+
+#h1 {
+  font-size: 600%;
+}
+
+canvas {
+  margin: auto;
+  
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  
+}
+.absolute {
+  position: absolute;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+
+
